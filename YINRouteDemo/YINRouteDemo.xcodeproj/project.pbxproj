@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E67C2C2184844A00DF9E33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C2B2184844A00DF9E33 /* AppDelegate.m */; };
+		18E67C2F2184844A00DF9E33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C2E2184844A00DF9E33 /* ViewController.m */; };
+		18E67C322184844A00DF9E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C302184844A00DF9E33 /* Main.storyboard */; };
+		18E67C342184844D00DF9E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C332184844D00DF9E33 /* Assets.xcassets */; };
+		18E67C372184844D00DF9E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C352184844D00DF9E33 /* LaunchScreen.storyboard */; };
+		18E67C3A2184844D00DF9E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C392184844D00DF9E33 /* main.m */; };
+		18E67C50218484B200DF9E33 /* YINRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C42218484B200DF9E33 /* YINRouteConfig.m */; };
+		18E67C51218484B200DF9E33 /* UIViewController+YINRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C43218484B200DF9E33 /* UIViewController+YINRoute.m */; };
+		18E67C52218484B200DF9E33 /* YINRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C44218484B200DF9E33 /* YINRouteManager.m */; };
+		18E67C53218484B200DF9E33 /* YINRouteCurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C48218484B200DF9E33 /* YINRouteCurrentController.m */; };
+		18E67C54218484B200DF9E33 /* UIView+YINController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C4A218484B200DF9E33 /* UIView+YINController.m */; };
+		18E67C55218484B200DF9E33 /* YINRouteURLPathRegist.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C4D218484B200DF9E33 /* YINRouteURLPathRegist.m */; };
+		18E67C56218484B200DF9E33 /* YINRouteURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C4F218484B200DF9E33 /* YINRouteURLData.m */; };
+		18E67C5A2184860F00DF9E33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C582184860F00DF9E33 /* DetailViewController.m */; };
+		18E67C5B2184860F00DF9E33 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C592184860F00DF9E33 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E67C272184844A00DF9E33 /* YINRouteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YINRouteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E67C2A2184844A00DF9E33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E67C2B2184844A00DF9E33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E67C2D2184844A00DF9E33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E67C2E2184844A00DF9E33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E67C312184844A00DF9E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E67C332184844D00DF9E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E67C362184844D00DF9E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E67C382184844D00DF9E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E67C392184844D00DF9E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E67C41218484B200DF9E33 /* UIView+YINController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YINController.h"; sourceTree = "<group>"; };
+		18E67C42218484B200DF9E33 /* YINRouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteConfig.m; sourceTree = "<group>"; };
+		18E67C43218484B200DF9E33 /* UIViewController+YINRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YINRoute.m"; sourceTree = "<group>"; };
+		18E67C44218484B200DF9E33 /* YINRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteManager.m; sourceTree = "<group>"; };
+		18E67C45218484B200DF9E33 /* YINRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRoute.h; sourceTree = "<group>"; };
+		18E67C46218484B200DF9E33 /* YINRouteURLPathRegist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteURLPathRegist.h; sourceTree = "<group>"; };
+		18E67C47218484B200DF9E33 /* YINRouteURLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteURLData.h; sourceTree = "<group>"; };
+		18E67C48218484B200DF9E33 /* YINRouteCurrentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteCurrentController.m; sourceTree = "<group>"; };
+		18E67C49218484B200DF9E33 /* YINRouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteConfig.h; sourceTree = "<group>"; };
+		18E67C4A218484B200DF9E33 /* UIView+YINController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YINController.m"; sourceTree = "<group>"; };
+		18E67C4B218484B200DF9E33 /* YINRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteManager.h; sourceTree = "<group>"; };
+		18E67C4C218484B200DF9E33 /* UIViewController+YINRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YINRoute.h"; sourceTree = "<group>"; };
+		18E67C4D218484B200DF9E33 /* YINRouteURLPathRegist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteURLPathRegist.m; sourceTree = "<group>"; };
+		18E67C4E218484B200DF9E33 /* YINRouteCurrentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteCurrentController.h; sourceTree = "<group>"; };
+		18E67C4F218484B200DF9E33 /* YINRouteURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteURLData.m; sourceTree = "<group>"; };
+		18E67C572184860F00DF9E33 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		18E67C582184860F00DF9E33 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		18E67C592184860F00DF9E33 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E67C242184844A00DF9E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E67C1E2184844A00DF9E33 = {
+			isa = PBXGroup;
+			children = (
+				18E67C292184844A00DF9E33 /* YINRouteDemo */,
+				18E67C282184844A00DF9E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E67C282184844A00DF9E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E67C272184844A00DF9E33 /* YINRouteDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E67C292184844A00DF9E33 /* YINRouteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18E67C40218484B200DF9E33 /* Route */,
+				18E67C2A2184844A00DF9E33 /* AppDelegate.h */,
+				18E67C2B2184844A00DF9E33 /* AppDelegate.m */,
+				18E67C2D2184844A00DF9E33 /* ViewController.h */,
+				18E67C2E2184844A00DF9E33 /* ViewController.m */,
+				18E67C572184860F00DF9E33 /* DetailViewController.h */,
+				18E67C582184860F00DF9E33 /* DetailViewController.m */,
+				18E67C592184860F00DF9E33 /* DetailViewController.xib */,
+				18E67C302184844A00DF9E33 /* Main.storyboard */,
+				18E67C332184844D00DF9E33 /* Assets.xcassets */,
+				18E67C352184844D00DF9E33 /* LaunchScreen.storyboard */,
+				18E67C382184844D00DF9E33 /* Info.plist */,
+				18E67C392184844D00DF9E33 /* main.m */,
+			);
+			path = YINRouteDemo;
+			sourceTree = "<group>";
+		};
+		18E67C40218484B200DF9E33 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				18E67C41218484B200DF9E33 /* UIView+YINController.h */,
+				18E67C42218484B200DF9E33 /* YINRouteConfig.m */,
+				18E67C43218484B200DF9E33 /* UIViewController+YINRoute.m */,
+				18E67C44218484B200DF9E33 /* YINRouteManager.m */,
+				18E67C45218484B200DF9E33 /* YINRoute.h */,
+				18E67C46218484B200DF9E33 /* YINRouteURLPathRegist.h */,
+				18E67C47218484B200DF9E33 /* YINRouteURLData.h */,
+				18E67C48218484B200DF9E33 /* YINRouteCurrentController.m */,
+				18E67C49218484B200DF9E33 /* YINRouteConfig.h */,
+				18E67C4A218484B200DF9E33 /* UIView+YINController.m */,
+				18E67C4B218484B200DF9E33 /* YINRouteManager.h */,
+				18E67C4C218484B200DF9E33 /* UIViewController+YINRoute.h */,
+				18E67C4D218484B200DF9E33 /* YINRouteURLPathRegist.m */,
+				18E67C4E218484B200DF9E33 /* YINRouteCurrentController.h */,
+				18E67C4F218484B200DF9E33 /* YINRouteURLData.m */,
+			);
+			name = Route;
+			path = ../../Classes/Route;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E67C262184844A00DF9E33 /* YINRouteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E67C3D2184844D00DF9E33 /* Build configuration list for PBXNativeTarget "YINRouteDemo" */;
+			buildPhases = (
+				18E67C232184844A00DF9E33 /* Sources */,
+				18E67C242184844A00DF9E33 /* Frameworks */,
+				18E67C252184844A00DF9E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YINRouteDemo;
+			productName = YINRouteDemo;
+			productReference = 18E67C272184844A00DF9E33 /* YINRouteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E67C1F2184844A00DF9E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "王印";
+				TargetAttributes = {
+					18E67C262184844A00DF9E33 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 18E67C222184844A00DF9E33 /* Build configuration list for PBXProject "YINRouteDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E67C1E2184844A00DF9E33;
+			productRefGroup = 18E67C282184844A00DF9E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E67C262184844A00DF9E33 /* YINRouteDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E67C252184844A00DF9E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E67C372184844D00DF9E33 /* LaunchScreen.storyboard in Resources */,
+				18E67C342184844D00DF9E33 /* Assets.xcassets in Resources */,
+				18E67C322184844A00DF9E33 /* Main.storyboard in Resources */,
+				18E67C5B2184860F00DF9E33 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E67C232184844A00DF9E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E67C52218484B200DF9E33 /* YINRouteManager.m in Sources */,
+				18E67C54218484B200DF9E33 /* UIView+YINController.m in Sources */,
+				18E67C50218484B200DF9E33 /* YINRouteConfig.m in Sources */,
+				18E67C2F2184844A00DF9E33 /* ViewController.m in Sources */,
+				18E67C56218484B200DF9E33 /* YINRouteURLData.m in Sources */,
+				18E67C53218484B200DF9E33 /* YINRouteCurrentController.m in Sources */,
+				18E67C3A2184844D00DF9E33 /* main.m in Sources */,
+				18E67C5A2184860F00DF9E33 /* DetailViewController.m in Sources */,
+				18E67C55218484B200DF9E33 /* YINRouteURLPathRegist.m in Sources */,
+				18E67C51218484B200DF9E33 /* UIViewController+YINRoute.m in Sources */,
+				18E67C2C2184844A00DF9E33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E67C302184844A00DF9E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E67C312184844A00DF9E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E67C352184844D00DF9E33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E67C362184844D00DF9E33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E67C3B2184844D00DF9E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E67C3C2184844D00DF9E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E67C3E2184844D00DF9E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67FSYNPTAV;
+				INFOPLIST_FILE = YINRouteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wy.test.YINRouteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E67C3F2184844D00DF9E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67FSYNPTAV;
+				INFOPLIST_FILE = YINRouteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wy.test.YINRouteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E67C222184844A00DF9E33 /* Build configuration list for PBXProject "YINRouteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E67C3B2184844D00DF9E33 /* Debug */,
+				18E67C3C2184844D00DF9E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E67C3D2184844D00DF9E33 /* Build configuration list for PBXNativeTarget "YINRouteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E67C3E2184844D00DF9E33 /* Debug */,
+				18E67C3F2184844D00DF9E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E67C1F2184844A00DF9E33 /* Project object */;
+}
