@@ -32,8 +32,9 @@ controller分类方法快捷调用
 
 ```
 url形式访问模块 此方法同时支持app 内模块间访问 也支持app之间的访问
-开启url访问功能
+
 ```
+开启url访问功能
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
