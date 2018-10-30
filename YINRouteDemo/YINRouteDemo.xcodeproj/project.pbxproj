@@ -13,15 +13,15 @@
 		18E67C342184844D00DF9E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C332184844D00DF9E33 /* Assets.xcassets */; };
 		18E67C372184844D00DF9E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C352184844D00DF9E33 /* LaunchScreen.storyboard */; };
 		18E67C3A2184844D00DF9E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C392184844D00DF9E33 /* main.m */; };
-		18E67C50218484B200DF9E33 /* YINRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C42218484B200DF9E33 /* YINRouteConfig.m */; };
-		18E67C51218484B200DF9E33 /* UIViewController+YINRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C43218484B200DF9E33 /* UIViewController+YINRoute.m */; };
-		18E67C52218484B200DF9E33 /* YINRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C44218484B200DF9E33 /* YINRouteManager.m */; };
-		18E67C53218484B200DF9E33 /* YINRouteCurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C48218484B200DF9E33 /* YINRouteCurrentController.m */; };
-		18E67C54218484B200DF9E33 /* UIView+YINController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C4A218484B200DF9E33 /* UIView+YINController.m */; };
-		18E67C55218484B200DF9E33 /* YINRouteURLPathRegist.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C4D218484B200DF9E33 /* YINRouteURLPathRegist.m */; };
-		18E67C56218484B200DF9E33 /* YINRouteURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C4F218484B200DF9E33 /* YINRouteURLData.m */; };
 		18E67C5A2184860F00DF9E33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C582184860F00DF9E33 /* DetailViewController.m */; };
 		18E67C5B2184860F00DF9E33 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E67C592184860F00DF9E33 /* DetailViewController.xib */; };
+		18E67C6C218496C600DF9E33 /* YINRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C5E218496C600DF9E33 /* YINRouteConfig.m */; };
+		18E67C6D218496C600DF9E33 /* UIViewController+YINRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C5F218496C600DF9E33 /* UIViewController+YINRoute.m */; };
+		18E67C6E218496C600DF9E33 /* YINRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C60218496C600DF9E33 /* YINRouteManager.m */; };
+		18E67C6F218496C600DF9E33 /* YINRouteCurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C64218496C600DF9E33 /* YINRouteCurrentController.m */; };
+		18E67C70218496C600DF9E33 /* UIView+YINController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C66218496C600DF9E33 /* UIView+YINController.m */; };
+		18E67C71218496C600DF9E33 /* YINRouteURLPathRegist.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C69218496C600DF9E33 /* YINRouteURLPathRegist.m */; };
+		18E67C72218496C600DF9E33 /* YINRouteURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67C6B218496C600DF9E33 /* YINRouteURLData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,24 +35,24 @@
 		18E67C362184844D00DF9E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E67C382184844D00DF9E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E67C392184844D00DF9E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18E67C41218484B200DF9E33 /* UIView+YINController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YINController.h"; sourceTree = "<group>"; };
-		18E67C42218484B200DF9E33 /* YINRouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteConfig.m; sourceTree = "<group>"; };
-		18E67C43218484B200DF9E33 /* UIViewController+YINRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YINRoute.m"; sourceTree = "<group>"; };
-		18E67C44218484B200DF9E33 /* YINRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteManager.m; sourceTree = "<group>"; };
-		18E67C45218484B200DF9E33 /* YINRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRoute.h; sourceTree = "<group>"; };
-		18E67C46218484B200DF9E33 /* YINRouteURLPathRegist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteURLPathRegist.h; sourceTree = "<group>"; };
-		18E67C47218484B200DF9E33 /* YINRouteURLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteURLData.h; sourceTree = "<group>"; };
-		18E67C48218484B200DF9E33 /* YINRouteCurrentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteCurrentController.m; sourceTree = "<group>"; };
-		18E67C49218484B200DF9E33 /* YINRouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteConfig.h; sourceTree = "<group>"; };
-		18E67C4A218484B200DF9E33 /* UIView+YINController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YINController.m"; sourceTree = "<group>"; };
-		18E67C4B218484B200DF9E33 /* YINRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteManager.h; sourceTree = "<group>"; };
-		18E67C4C218484B200DF9E33 /* UIViewController+YINRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YINRoute.h"; sourceTree = "<group>"; };
-		18E67C4D218484B200DF9E33 /* YINRouteURLPathRegist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteURLPathRegist.m; sourceTree = "<group>"; };
-		18E67C4E218484B200DF9E33 /* YINRouteCurrentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteCurrentController.h; sourceTree = "<group>"; };
-		18E67C4F218484B200DF9E33 /* YINRouteURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteURLData.m; sourceTree = "<group>"; };
 		18E67C572184860F00DF9E33 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		18E67C582184860F00DF9E33 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		18E67C592184860F00DF9E33 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		18E67C5D218496C600DF9E33 /* UIView+YINController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YINController.h"; sourceTree = "<group>"; };
+		18E67C5E218496C600DF9E33 /* YINRouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteConfig.m; sourceTree = "<group>"; };
+		18E67C5F218496C600DF9E33 /* UIViewController+YINRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YINRoute.m"; sourceTree = "<group>"; };
+		18E67C60218496C600DF9E33 /* YINRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteManager.m; sourceTree = "<group>"; };
+		18E67C61218496C600DF9E33 /* YINRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRoute.h; sourceTree = "<group>"; };
+		18E67C62218496C600DF9E33 /* YINRouteURLPathRegist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteURLPathRegist.h; sourceTree = "<group>"; };
+		18E67C63218496C600DF9E33 /* YINRouteURLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteURLData.h; sourceTree = "<group>"; };
+		18E67C64218496C600DF9E33 /* YINRouteCurrentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteCurrentController.m; sourceTree = "<group>"; };
+		18E67C65218496C600DF9E33 /* YINRouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteConfig.h; sourceTree = "<group>"; };
+		18E67C66218496C600DF9E33 /* UIView+YINController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YINController.m"; sourceTree = "<group>"; };
+		18E67C67218496C600DF9E33 /* YINRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteManager.h; sourceTree = "<group>"; };
+		18E67C68218496C600DF9E33 /* UIViewController+YINRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YINRoute.h"; sourceTree = "<group>"; };
+		18E67C69218496C600DF9E33 /* YINRouteURLPathRegist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteURLPathRegist.m; sourceTree = "<group>"; };
+		18E67C6A218496C600DF9E33 /* YINRouteCurrentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YINRouteCurrentController.h; sourceTree = "<group>"; };
+		18E67C6B218496C600DF9E33 /* YINRouteURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YINRouteURLData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		18E67C292184844A00DF9E33 /* YINRouteDemo */ = {
 			isa = PBXGroup;
 			children = (
-				18E67C40218484B200DF9E33 /* Route */,
+				18E67C5C218496C600DF9E33 /* Route */,
 				18E67C2A2184844A00DF9E33 /* AppDelegate.h */,
 				18E67C2B2184844A00DF9E33 /* AppDelegate.m */,
 				18E67C2D2184844A00DF9E33 /* ViewController.h */,
@@ -102,28 +102,28 @@
 			path = YINRouteDemo;
 			sourceTree = "<group>";
 		};
-		18E67C40218484B200DF9E33 /* Route */ = {
+		18E67C5C218496C600DF9E33 /* Route */ = {
 			isa = PBXGroup;
 			children = (
-				18E67C41218484B200DF9E33 /* UIView+YINController.h */,
-				18E67C42218484B200DF9E33 /* YINRouteConfig.m */,
-				18E67C43218484B200DF9E33 /* UIViewController+YINRoute.m */,
-				18E67C44218484B200DF9E33 /* YINRouteManager.m */,
-				18E67C45218484B200DF9E33 /* YINRoute.h */,
-				18E67C46218484B200DF9E33 /* YINRouteURLPathRegist.h */,
-				18E67C47218484B200DF9E33 /* YINRouteURLData.h */,
-				18E67C48218484B200DF9E33 /* YINRouteCurrentController.m */,
-				18E67C49218484B200DF9E33 /* YINRouteConfig.h */,
-				18E67C4A218484B200DF9E33 /* UIView+YINController.m */,
-				18E67C4B218484B200DF9E33 /* YINRouteManager.h */,
-				18E67C4C218484B200DF9E33 /* UIViewController+YINRoute.h */,
-				18E67C4D218484B200DF9E33 /* YINRouteURLPathRegist.m */,
-				18E67C4E218484B200DF9E33 /* YINRouteCurrentController.h */,
-				18E67C4F218484B200DF9E33 /* YINRouteURLData.m */,
+				18E67C5D218496C600DF9E33 /* UIView+YINController.h */,
+				18E67C5E218496C600DF9E33 /* YINRouteConfig.m */,
+				18E67C5F218496C600DF9E33 /* UIViewController+YINRoute.m */,
+				18E67C60218496C600DF9E33 /* YINRouteManager.m */,
+				18E67C61218496C600DF9E33 /* YINRoute.h */,
+				18E67C62218496C600DF9E33 /* YINRouteURLPathRegist.h */,
+				18E67C63218496C600DF9E33 /* YINRouteURLData.h */,
+				18E67C64218496C600DF9E33 /* YINRouteCurrentController.m */,
+				18E67C65218496C600DF9E33 /* YINRouteConfig.h */,
+				18E67C66218496C600DF9E33 /* UIView+YINController.m */,
+				18E67C67218496C600DF9E33 /* YINRouteManager.h */,
+				18E67C68218496C600DF9E33 /* UIViewController+YINRoute.h */,
+				18E67C69218496C600DF9E33 /* YINRouteURLPathRegist.m */,
+				18E67C6A218496C600DF9E33 /* YINRouteCurrentController.h */,
+				18E67C6B218496C600DF9E33 /* YINRouteURLData.m */,
 			);
 			name = Route;
-			path = ../../Classes/Route;
-			sourceTree = "<group>";
+			path = Classes/Route;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -196,17 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E67C52218484B200DF9E33 /* YINRouteManager.m in Sources */,
-				18E67C54218484B200DF9E33 /* UIView+YINController.m in Sources */,
-				18E67C50218484B200DF9E33 /* YINRouteConfig.m in Sources */,
+				18E67C72218496C600DF9E33 /* YINRouteURLData.m in Sources */,
+				18E67C6E218496C600DF9E33 /* YINRouteManager.m in Sources */,
 				18E67C2F2184844A00DF9E33 /* ViewController.m in Sources */,
-				18E67C56218484B200DF9E33 /* YINRouteURLData.m in Sources */,
-				18E67C53218484B200DF9E33 /* YINRouteCurrentController.m in Sources */,
+				18E67C6C218496C600DF9E33 /* YINRouteConfig.m in Sources */,
 				18E67C3A2184844D00DF9E33 /* main.m in Sources */,
+				18E67C6F218496C600DF9E33 /* YINRouteCurrentController.m in Sources */,
 				18E67C5A2184860F00DF9E33 /* DetailViewController.m in Sources */,
-				18E67C55218484B200DF9E33 /* YINRouteURLPathRegist.m in Sources */,
-				18E67C51218484B200DF9E33 /* UIViewController+YINRoute.m in Sources */,
 				18E67C2C2184844A00DF9E33 /* AppDelegate.m in Sources */,
+				18E67C6D218496C600DF9E33 /* UIViewController+YINRoute.m in Sources */,
+				18E67C70218496C600DF9E33 /* UIView+YINController.m in Sources */,
+				18E67C71218496C600DF9E33 /* YINRouteURLPathRegist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
